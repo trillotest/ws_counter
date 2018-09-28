@@ -1,0 +1,6 @@
+{
+  "name" : "IncomeCard",
+  "type" : "html",
+  "minWidth" : "244px",
+  "cssClass" : "content-cell"
+}

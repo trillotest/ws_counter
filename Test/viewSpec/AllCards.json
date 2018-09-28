@@ -1,0 +1,66 @@
+{
+  "name" : "AllCards",
+  "type" : "container",
+  "containerSpecs" : [
+    {
+      "name" : "column_1",
+      "childrenSpecs" : [
+        {
+          "name" : "Row_1",
+          "childrenSpecs" : [
+            {
+              "name" : "AccountCard_1",
+              "alignment" : "left",
+              "flexGrow" : "1",
+              "reference" : "AccountCard",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            },
+            {
+              "name" : "DealsCard_1",
+              "alignment" : "left",
+              "flexGrow" : "1",
+              "reference" : "DealsCard",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "row"
+        },
+        {
+          "name" : "Row_2",
+          "alignment" : "left",
+          "childrenSpecs" : [
+            {
+              "name" : "IncomeCard_1",
+              "alignment" : "left",
+              "flexGrow" : "1",
+              "reference" : "IncomeCard",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            },
+            {
+              "name" : "DealsCard_2",
+              "alignment" : "left",
+              "flexGrow" : "1",
+              "reference" : "DealsCard",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "row"
+        }
+      ],
+      "flexGrow" : "1",
+      "type" : "column"
+    }
+  ]
+}
