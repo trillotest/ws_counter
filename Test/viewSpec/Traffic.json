@@ -1,0 +1,92 @@
+{
+  "name" : "Traffic",
+  "type" : "chart",
+  "chartSpecs" : [
+    {
+      "type" : "line-chartjs",
+      "data" : {
+        "labels" : [
+          "M",
+          "T",
+          "W",
+          "T",
+          "F",
+          "S",
+          "S",
+          "M",
+          "T",
+          "W",
+          "T",
+          "F",
+          "S",
+          "S",
+          "M",
+          "T",
+          "W"
+        ],
+        "datasets" : [
+          {
+            "label" : "US",
+            "backgroundColor" : "rgba(99, 194, 222, 0.1)",
+            "borderColor" : "#63c2de",
+            "pointHoverBackgroundColor" : "#fff",
+            "borderWidth" : 2
+          },
+          {
+            "label" : "Canada",
+            "backgroundColor" : "transparent",
+            "borderColor" : "#4dbd74",
+            "pointHoverBackgroundColor" : "#fff",
+            "borderWidth" : 2
+          },
+          {
+            "label" : "Mexico",
+            "backgroundColor" : "transparent",
+            "borderColor" : "#f86c6b",
+            "pointHoverBackgroundColor" : "#fff",
+            "borderWidth" : 1,
+            "borderDash" : [
+              8,
+              5
+            ]
+          }
+        ]
+      },
+      "options" : {
+        "responsive" : true,
+        "maintainAspectRatio" : true,
+        "scales" : {
+          "xAxes" : [
+            {
+              "gridLines" : {
+                "drawOnChartArea" : false
+              }
+            }
+          ],
+          "yAxes" : [
+            {
+              "ticks" : {
+                "beginAtZero" : true,
+                "maxTicksLimit" : 5
+              }
+            }
+          ]
+        },
+        "elements" : {
+          "point" : {
+            "radius" : 0,
+            "hitRadius" : 10,
+            "hoverRadius" : 4,
+            "hoverBorderWidth" : 3
+          }
+        },
+        "legend" : {
+          "display" : false
+        }
+      },
+      "name" : "Traffic",
+      "displayName" : null
+    }
+  ],
+  "cssClass" : "content-cell"
+}

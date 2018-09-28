@@ -1,0 +1,50 @@
+{
+  "name" : "DonutChartJS",
+  "type" : "chart",
+  "width" : "240px",
+  "chartSpecs" : [
+    {
+      "displayName" : "Traffic",
+      "type" : "doughnut-chartjs",
+      "data" : {
+        "datasets" : [
+          {
+            "backgroundColor" : [
+              "rgb(255, 99, 132)",
+              "rgb(255, 159, 64)",
+              "rgb(255, 205, 86)",
+              "rgb(75, 192, 192)",
+              "rgb(54, 162, 235)"
+            ],
+            "label" : "Dataset 1"
+          }
+        ],
+        "labels" : [
+          "Chrome",
+          "Firefox",
+          "Edge",
+          "Safari",
+          "Others"
+        ]
+      },
+      "options" : {
+        "responsive" : true,
+        "legend" : {
+          "position" : "top",
+          "labels" : {
+            "usePointStyle" : true
+          }
+        },
+        "title" : {
+          "display" : true,
+          "text" : "Traffic By Browsers"
+        },
+        "animation" : {
+          "animateScale" : true,
+          "animateRotate" : true
+        }
+      }
+    }
+  ],
+  "cssClass" : "content-cell"
+}

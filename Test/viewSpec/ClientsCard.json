@@ -1,0 +1,6 @@
+{
+  "name" : "ClientsCard",
+  "type" : "html",
+  "minWidth" : "244px",
+  "cssClass" : "content-cell"
+}
