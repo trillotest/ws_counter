@@ -1,0 +1,54 @@
+{
+  "name" : "PieChartJS",
+  "type" : "chart",
+  "width" : "240px",
+  "actionSpecs" : [
+    {
+      "type" : "view"
+    }
+  ],
+  "chartSpecs" : [
+    {
+      "type" : "pie-chartjs",
+      "displayName" : "Traffic (OS)",
+      "data" : {
+        "datasets" : [
+          {
+            "backgroundColor" : [
+              "rgb(255, 99, 132)",
+              "rgb(255, 159, 64)",
+              "rgb(255, 205, 86)",
+              "rgb(75, 192, 192)",
+              "rgb(54, 162, 235)"
+            ],
+            "label" : "Dataset 1"
+          }
+        ],
+        "labels" : [
+          "Windows",
+          "Mac",
+          "iOS",
+          "Android",
+          "Others"
+        ]
+      },
+      "options" : {
+        "responsive" : true,
+        "legend" : {
+          "labels" : {
+            "usePointStyle" : true
+          }
+        },
+        "title" : {
+          "display" : true,
+          "text" : "Traffic by OS"
+        },
+        "animation" : {
+          "animateScale" : true,
+          "animateRotate" : true
+        }
+      }
+    }
+  ],
+  "cssClass" : "content-cell"
+}
